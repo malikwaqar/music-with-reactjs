@@ -1,0 +1,67 @@
+.albums {
+    width: 100%;
+    background: url("../images/albums.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.overlay {
+    background-image: linear-gradient(180deg, rgba(51, 49, 50, 0) 0%, #333132 75%);
+}
+.albums__heading {
+    padding: 100px 100px 0px 100px;
+    width: 45%;
+}
+.albums__heading > h3 {
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 40px;
+}
+.albums__container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.albums__content {
+    padding-top: 50px;
+}
+.albums__image > img {
+    width: 85%;
+    padding-bottom: 20px;
+}
+.albums__info {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.albums__info > h5 {
+    color: #D70E1D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.albums__info > h3 {
+    font-size: 29px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.albums__info > p {
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.albums__icons > i {
+    width: 16px;
+    height: 16px;
+    background-color: #D70E1D;
+    margin: 5px;
+    padding: 1em;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+}

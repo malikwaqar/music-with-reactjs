@@ -1,0 +1,25 @@
+.tickets {
+    background-color: #D70E1D;
+    padding: 0px 150px 0px 150px;
+    
+}
+.tickets__container {
+    padding: 50px 0px 50px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.tickets__container > h3 {
+    font-size: 35px;
+    font-weight: 400;
+}
+.tickets__container > button {
+    background-color: #D70E1D;
+    border: 2px solid white;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    cursor: pointer;
+}
