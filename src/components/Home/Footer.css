@@ -1,0 +1,139 @@
+.footer {
+    background-color: #333132;
+    color: white;
+    
+}
+.footer__container{
+    padding: 70px 70px 40px 70px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.logo {
+    padding-bottom: 20px;
+}
+.footer__container > p {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    padding-top: 30px;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+.footer__icons {
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer__icons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #909090;
+    border-radius: 50px;
+    margin-right: 15px;
+
+} 
+.footer__icons a i{
+    padding: 13px 13px;
+    font-size: 16px;
+    color: #d70e1d;
+}
+.footer__icons a:hover {
+    border: 1px solid  #d70e1d;
+}
+.footer__copyright {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+span {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(155, 154, 154);
+}
+hr {
+    border: none;
+    height: 1px;
+    color: gray; 
+    background-color:gray;
+}
+
+
+
+/* Responsive */
+
+@media only screen and (max-device-width: 480px) {
+    .footer {
+        background-color: #333132;
+        color: white;
+        
+    }
+    .footer__container{
+        padding: 50px 20px 40px 20px;
+        margin: auto;
+        width: 400px;
+        text-align: center;
+    }
+    .logo {
+        padding-bottom: 20px;
+    }
+    .footer__container > p {
+        font-size: 18px;
+        font-weight: 300;
+        color: white;
+        padding-top: 30px;
+        line-height: 1.6;
+        padding-bottom: 40px;
+    }
+    .footer__icons {
+        display: inline-block;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    
+    .footer__icons a{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #909090;
+        border-radius: 50px;
+        margin-right: 15px;
+    
+    } 
+    .footer__icons a i{
+        padding: 13px 13px;
+        font-size: 16px;
+        color: #d70e1d;
+    }
+    .footer__icons a:hover {
+        border: 1px solid  #d70e1d;
+    }
+    .footer__copyright {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    span {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 2;
+        color: rgb(155, 154, 154);
+    }
+    .divider {
+        border: none;
+        height: 1px;
+        color: gray; 
+        background-color:gray;
+        width: 480px;
+    }
+}

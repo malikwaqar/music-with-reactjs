@@ -4,8 +4,6 @@
     padding: 0px 100px 50px 100px;
     
 }
-.schedule__heading {
-}
 .schedule__heading > h3 {
     font-size: 70px;
     font-weight: 400;
@@ -42,4 +40,58 @@
     padding: 15px 30px 15px 30px;
     color: white;
     cursor: pointer;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-device-width: 480px) {
+    .schedule {
+        background-color: #333132;
+        color: white;
+        padding: 0px 20px 50px 20px;
+        
+    } 
+    .schedule__heading{
+        padding-bottom: 30px;
+    }
+    .schedule__heading > h3 {
+        font-size: 35px;
+        font-weight: 400;
+        color: white;
+        padding-bottom: 20px;
+    }
+    .schedule__tours {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    
+    .schedule__cards {
+        width: 400px;
+        border-top: 2px solid gray;
+        padding: 50px 50px 30px 0px;
+    }
+    .schedule__cards:hover {
+        border-top: 2px solid white;
+    }
+    .card__content > h5 {
+        color: gray;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .card__content > h4 {
+        font-size: 26px;
+        font-weight: 400;
+        padding-bottom: 30px;
+    }
+    .card__content > button {
+        background-color: #D70E1D;
+        border: none;
+        padding: 10px 20px 10px 20px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
 }

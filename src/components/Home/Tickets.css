@@ -23,3 +23,35 @@
     color: white;
     cursor: pointer;
 }
+
+/* Responsive */
+
+@media only screen and (max-device-width: 480px) {
+    .tickets {
+        background-color: #D70E1D;
+        padding: 0px;
+        
+    }
+    .tickets__container {
+        padding: 40px 0px 40px 0px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    .tickets__container > h3 {
+        font-size: 26px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    .tickets__container > button {
+        background-color: #D70E1D;
+        border: 2px solid white;
+        padding: 10px 20px 10px 20px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+    }
+}

@@ -8,7 +8,7 @@ const Biography = () => {
              <div className="biography__container">
                      <div className="biography__heading">
                          <h3>Biography</h3>
-                         <hr />
+                         <hr className="divider" />
                      </div>
                      <div className="biography__content">
                          <div className="biography__info">

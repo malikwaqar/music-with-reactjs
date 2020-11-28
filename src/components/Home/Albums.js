@@ -9,7 +9,7 @@ const Albums = () => {
             <div className="overlay">
                 <div className="albums__heading">
                     <h3>Latest Albums</h3>
-                    <hr />
+                    <hr className="divider" />
                 </div>
                 <div className="albums__container">
                     <div className="albums__content">

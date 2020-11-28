@@ -9,7 +9,7 @@ const Intro = () => {
                         <div className="intro__text">
                             <h1>Mercy Law</h1>
                             <h3>Professional Singer</h3>
-                            <hr />
+                            <hr className="divider" />
                         </div>
                         <div className="intro__details">
                             <p>
