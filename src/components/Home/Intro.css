@@ -54,7 +54,7 @@
 
 
 /* Responsiveness */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 500px) {
     .intro {
         width: 480px !important;
         background: url("../images/banner.jpg");

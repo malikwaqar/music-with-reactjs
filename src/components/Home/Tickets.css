@@ -26,7 +26,7 @@
 
 /* Responsive */
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 500px) {
     .tickets {
         background-color: #D70E1D;
         padding: 0px;

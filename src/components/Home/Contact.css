@@ -72,7 +72,7 @@ button {
 
 /* Responsive */
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 500px) {
     .contact {
         width: 480px;
         background: url("../images/contact.jpg");
